@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Facebook-log in or sign up</title>
+    <link rel="icon" href="./images/facebook_logo_icon_147291.ico" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Passion+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <div class="container mt-5">
+      <div class="row ms-auto pt-5">
+        <div class="col pe-5 me-5 mt-5 pt-5">
+          <h1
+            class="text-primary"
+            style="
+              margin: 0;
+              padding: 0;
+              font-size: 4rem;
+              font-family: 'Passion One', cursive;
+            "
+          >
+            facebook
+          </h1>
+          <p style="font-size: 2rem; color: black" class="">
+            Facebook helps you connect and share with the people in your life.
+          </p>
+        </div>
+        <div class="col ps-auto">
+          <div
+            class="card shadow bg-body"
+            style="width: 25rem; height: 23rem; border-radius: 10px"
+          >
+            <form action="" class="text-center">
+              <input
+                style="width: 23rem; border: 2px solid #eee"
+                class="pt-2 pb-3 ps-4 pe-4 mt-3 mb-3"
+                type="text"
+                name="username"
+                id="user"
+                placeholder="Email address or Phone number"
+              /><br />
+              <input
+                style="width: 23rem; border: 2px solid #eee"
+                class="pt-2 pb-3 ps-4 pe-4 mb-3"
+                type="password"
+                name="pass"
+                id="pass"
+                placeholder="Password"
+              /><br />
+              <button
+                type="button"
+                class="btn btn-primary pt-2 pb-2 fs-4 fs-bold mb-3"
+                style="width: 23rem"
+              >
+                Log in
+              </button>
+              <a id="forgot" href="/forgottenpasswd.html" class="text-primary"
+                >Forgotten password?</a
+              >
+              <hr class="ms-3 me-3" />
+              <button
+                id="modal"
+                type="button"
+                class="btn text-light mb-3 mt-3"
+                data-bs-toggle="modal"
+                data-bs-target="#staticBackdrop"
+                style="
+                  background-color: rgb(65, 194, 5);
+                  width: 12rem;
+                  font-size: 17px;
+                  font-weight: bold;
+                  padding: 10px 10px;
+                "
+              >
+                Create New Account
+              </button>
+              <div
+                class="modal fade ms-auto me-auto"
+                id="staticBackdrop"
+                data-bs-backdrop="static"
+                data-bs-keyboard="false"
+                tabindex="-1"
+                aria-labelledby="staticBackdropLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="staticBackdropLabel">
+                        Sign Up
+                      </h1>
+
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+                    <div class="modal-body">
+                      <div class="d-flex">
+                        <input
+                          style="width: 12rem"
+                          class="form-control pt-2 pb-2 pe-4 mb-2 ms-1 me-2"
+                          type="text"
+                          name="username"
+                          id="user"
+                          placeholder="First name"
+                        />
+                        <input
+                          style="width: 12rem"
+                          class="form-control pt-2 pb-2 pe-4 mb-2 me-2"
+                          type="text"
+                          name="lastname"
+                          id="user"
+                          placeholder="Last name"
+                        />
+                      </div>
+                      <input
+                        style="width: 24.8rem"
+                        class="form-control pt-2 pb-2 pe-3 mb-2 me-2"
+                        type="text"
+                        name="mobile"
+                        id="user"
+                        placeholder="Mobile number or email address"
+                      />
+                      <input
+                        style="width: 24.8rem"
+                        class="form-control pt-2 pb-2 pe-3 mb-2 me-2"
+                        type="password"
+                        name="pass"
+                        id="user"
+                        placeholder="New password"
+                      />
+                      <h4 style="text-align: left; font-size: 13px">
+                        Date of Birth ?
+                      </h4>
+                      <div class="d-flex">
+                        <select
+                          style="width: 10rem"
+                          class="form-select form-select-lg mb-2 me-2"
+                          aria-label=".form-select-lg example"
+                        >
+                          <option value="1">1</option>
+                          <option value="2">2</option>
+                          <option value="3">3</option>
+                          <option value="">4</option>
+                          <option value="">5</option>
+                          <option value="">6</option>
+                          <option value="">7</option>
+                          <option value="">8</option>
+                          <option value="">9</option>
+                          <option value="">10</option>
+                          <option value="">11</option>
+                          <option value="">12</option>
+                          <option value="">13</option>
+                          <option value="">14</option>
+                          <option value="">15</option>
+                          <option value="">16</option>
+                          <option value="">17</option>
+                          <option value="">18</option>
+                          <option value="">19</option>
+                          <option value="">20</option>
+                          <option value="">21</option>
+                          <option value="">22</option>
+                          <option value="">23</option>
+                          <option value="">24</option>
+                          <option value="">25</option>
+                          <option value="">26</option>
+                          <option value="">27</option>
+                          <option value="">28</option>
+                          <option selected>29</option>
+                          <option value="">30</option>
+                          <option value="">31</option>
+                        </select>
+
+                        <select
+                          style="width: 10rem"
+                          class="form-select form-select-lg mb-2 me-2"
+                          aria-label=".form-select-lg example"
+                        >
+                          <option value="">Jan</option>
+                          <option value="">Feb</option>
+                          <option value="">Mar</option>
+                          <option value="">Apr</option>
+                          <option value="">May</option>
+                          <option value="">Jun</option>
+                          <option value="">Jul</option>
+                          <option value="">Aug</option>
+                          <option value="">Sep</option>
+                          <option value="">Oct</option>
+                          <option selected>Nov</option>
+                          <option value="">Dec</option>
+                        </select>
+                        <select
+                          style="width: 10rem"
+                          class="form-select form-select-lg mb-2"
+                          aria-label=".form-select-lg example"
+                        >
+                          <option selected>2022</option>
+                          <option value="">2021</option>
+                          <option value="">2019</option>
+                          <option value="">2018</option>
+                          <option value="">2017</option>
+                          <option value="">2016</option>
+                          <option value="">2015</option>
+                          <option value="">2014</option>
+                          <option value="">2013</option>
+                          <option value="">2012</option>
+                          <option value="">2011</option>
+                          <option value="">2010</option>
+                          <option value="">2009</option>
+                          <option value="">2008</option>
+                          <option value="">2007</option>
+                          <option value="">2006</option>
+                          <option value="">2005</option>
+                          <option value="">2004</option>
+                          <option value="">2003</option>
+                          <option value="">2002</option>
+                          <option value="">2001</option>
+                          <option value="">2000</option>
+                          <option value="">1999</option>
+                          <option value="">1931</option>
+                          <option value="">1930</option>
+                          <option value="">1929</option>
+                          <option value="">1928</option>
+                          <option value="">1927</option>
+                          <option value="">1926</option>
+                          <option value="">1925</option>
+                          <option value="">1924</option>
+                          <option value="">1923</option>
+                          <option value="">1922</option>
+                          <option value="">1921</option>
+                          <option value="">1920</option>
+                          <option value="">1919</option>
+                          <option value="">1918</option>
+                          <option value="">1917</option>
+                          <option value="">1916</option>
+                          <option value="">1915</option>
+                          <option value="">1914</option>
+                          <option value="">1913</option>
+                          <option value="">1912</option>
+                          <option value="">1911</option>
+                          <option value="">1910</option>
+                          <option value="">1909</option>
+                          <option value="">1908</option>
+                          <option value="">1907</option>
+                          <option value="">1906</option>
+                          <option value="">1905</option>
+                        </select>
+                      </div>
+                      <h4 style="text-align: left; font-size: 13px">Gender</h4>
+                      <div class="d-flex">
+                        <div class="form-check form-check-reverse me-5">
+                          <input
+                            class="form-check-input"
+                            type="radio"
+                            value=""
+                            id="reverseRadio1"
+                          />
+                          <label class="form-check-label" for="reverseRadio1">
+                            Male
+                          </label>
+                        </div>
+                        <div class="form-check form-check-reverse me-5">
+                          <input
+                            class="form-check-input"
+                            type="radio"
+                            value=""
+                            id="reverseRadio2"
+                          />
+                          <label class="form-check-label" for="reverseRadio2">
+                            Female
+                          </label>
+                        </div>
+                        <div class="form-check form-check-reverse">
+                          <input
+                            class="form-check-input"
+                            type="radio"
+                            value=""
+                            id="reverseRadio3"
+                          />
+                          <label class="form-check-label" for="reverseRadio3">
+                            Other
+                          </label>
+                        </div>
+                      </div>
+                      <p
+                        style="
+                          font-size: 12px;
+                          text-align: left;
+                          margin-top: 5px;
+                        "
+                      >
+                        People who use our service may have uploaded your
+                        contact information to Facebook. Learn more.
+                      </p>
+                      <p style="font-size: 12px; text-align: left">
+                        By clicking Sign Up, you agree to our Terms, Privacy
+                        Policy and Cookies Policy. You may receive SMS
+                        notifications from us and can opt out at any time.
+                      </p>
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        type="submit"
+                        class="btn ms-auto me-auto text-light"
+                        style="
+                          background-color: rgb(65, 194, 5);
+                          font-weight: bold;
+                          width: 10rem;
+                        "
+                      >
+                        Sign Up
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+          <p class="ms-4 mt-3">
+            <a
+              id="create"
+              href=""
+              class=""
+              style="color: black; font-weight: bold"
+              >Create a Page</a
+            >
+            for a celebrity, brand or business
+          </p>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

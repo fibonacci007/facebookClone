@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #eee;
+}
+#forgot {
+  text-decoration: none;
+}
+#forgot:hover {
+  text-decoration: underline;
+}
+
+#create {
+  text-decoration: none;
+}
+#create:hover {
+  text-decoration: underline;
+}

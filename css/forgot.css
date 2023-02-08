@@ -1,0 +1,40 @@
+#card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#forgot {
+  text-decoration: none;
+}
+#forgot:hover {
+  text-decoration: underline;
+}
+#yemail {
+  border: 2px solid #eee;
+}
+
+#yemail:hover {
+  border: 2px solid black;
+}
+#ypass {
+  border: 2px solid #eee;
+}
+#ypass:hover {
+  border: 2px solid black;
+}
+
+@media (max-width: 768px) {
+  #yemail {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  #ypass {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  #forgot {
+    display: none;
+  }
+}
